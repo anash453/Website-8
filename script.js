@@ -12,7 +12,7 @@ let menuList = document.getElementById("menuList")
         }
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('nav');
-            if (window.scrollY > 101) { // Adjust the scroll threshold as needed
+            if (window.scrollY > 10) {
                 navbar.classList.add('fixed');
             } else {
                     navbar.classList.remove('fixed');
